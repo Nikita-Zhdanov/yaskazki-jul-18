@@ -60,6 +60,32 @@ function initLocomotiveScroll() {
     }
   }
 
+
+
+
+  let startVideoArc = true;
+  let videoArc = document.querySelector('.main-3s__sticky-video');
+  locomotiveScroll.on('scroll', (args) => {
+      if(typeof args.currentElements['triggerSection'] === 'object') {
+          let progress = args.currentElements['triggerSection'].progress;
+          if (progress >= 0.9) {
+              videoArc.style.opacity = "0";
+              startVideoArc = false;
+          } else if (progress <= 0.1){
+              videoArc.style.opacity = "0";
+              startVideoArc = false;
+          } else if (progress > 0.1 && progress < 0.9) {
+              videoArc.style.opacity = "1";
+              startVideoArc = true;
+          }
+      }
+  });
+
+
+
+
+
+
 }
 
 window.addEventListener('load', ()=>{
