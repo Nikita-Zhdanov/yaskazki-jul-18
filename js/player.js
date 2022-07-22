@@ -8,9 +8,9 @@ const title = document.querySelector('.player__play-title .super-small');
 const artist = document.querySelector('.player__play-artist .super-small');
 
 // Song titles
-const songs = ['01-tatary', '02-karely', '03-avarcy', '04-kalmyki', '05-evenky', '06-cherkessy', '07-altaytsy', '08-russkie', '09-chuvashy', '10-yakuty', '11-udmurty', '12-chechentsy', '13-nanaytsy', '14-nentsy', '15-komi'];
-const artists = ['Juna', 'ILMU', 'Хиринду Султанова', 'Somerset', 'Синильга', 'Jrpjej', 'Bayaru Takshina', 'Синекдоха Монток', 'Ялар', 'Ayarkhaan', 'Ladi Sveti', 'Хава Хамзатова', 'Нина Гейкер', 'Минлей', 'Надежда Мусатова']
-const name = ['Татарская колыбельная', 'Карельская колыбельная', 'Аварская колыбельная', 'Калмыцкая колыбельная', 'Эвенкийская колыбельная', 'Черкесская колыбельная', 'Алтайская колыбельная', 'Русская колыбельная', 'Чувашская колыбельная', 'Якутская колыбельная', 'Удмуртская колыбельная', 'Чеченская колыбельная', 'Нанайская колыбельная', 'Ненецкая колыбельная', 'Коми колыбельная']
+const songs = ['01-tatary', '02-karely', '03-avarcy', '04-kalmyki', '05-altaytsy', '06-yakuty', '07-russkie', '08-udmurty', '09-cherkesy', '10-chuvashy', '11-evenky', '12-chechentsy', '13-nanaytsy', '14-komi', '15-nentsy'];
+const artists = ['Juna', 'ILMU', 'Хиринду Султанова', 'Somerset', 'Bayaru Takshina', 'Ayarkhaan', 'Синекдоха Монток', 'Ladi Sveti', 'Jrpjej', 'Ялар', 'Синильга', 'Хава Хамзатова', 'Нина Гейкер', 'Надежда Мусатова', 'Минлей']
+const name = ['Татарская колыбельная', 'Карельская колыбельная', 'Аварская колыбельная', 'Калмыцкая колыбельная', 'Алтайская колыбельная', 'Якутская колыбельная', 'Русская колыбельная', 'Удмуртская колыбельная', 'Черкесская колыбельная', 'Чувашская колыбельная', 'Эвенкийская колыбельная', 'Чеченская колыбельная', 'Нанайская колыбельная', 'Коми колыбельная', 'Ненецкая колыбельная']
 // Keep track of song
 let songIndex = 0;
 
